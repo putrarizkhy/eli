@@ -24,7 +24,7 @@
   <?php echo $javascript->link('jquery.min.js'); 
   echo $javascript->link('jquery.jplayer.min.js');
   echo $javascript->link('/client/js/jwplayer.js');
-  
+  echo $javascript->link('/honeycomb/scripts/jquery.flexslider-min.js');
   ?>
 
   <?php echo $html->css('jquery.qtip'); ?>
@@ -32,6 +32,23 @@
      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <link rel="stylesheet" type="text/css" href="css/ie8.css" />
   <![endif]-->
+
+<?php
+
+echo $html->css('/honeycomb/style.css');
+echo $html->css('/honeycomb/styles/font-awesome.min.css');
+echo $html->css('/honeycomb/styles/flexslider.css');
+echo $html->css('/honeycomb/styles/animate.css');
+echo $html->css('/honeycomb/styles/prettyPhoto.css');
+echo $html->css('/honeycomb/styles/prettyPhoto.css');
+
+
+//echo $javascript->link('/client/js/vendor/modernizr.min.js');
+//echo $javascript->link('/client/js/jwplayer.js');
+
+
+
+?>
 
 </head>
 
@@ -71,7 +88,7 @@
       <div class="clearfix sub_page">
         <div class="clr logo_bg">
           <div class="logo_left">
-            <div class="logo"><img src="<?php echo $this->webroot;?>client/images/new-logo.png"/></div>
+            <div class="logo"><img src="<?php echo $this->webroot;?>client/images/Logo-ELI-04.png"/ style="width: 200px; height: 87px;"></div>
             <div class="slogan">Admin Panel</div>
           </div>
           <div class="header_rightbg">
@@ -105,7 +122,6 @@
    </div>
   </div><!-- /container -->
 
-
   
   <?php echo $javascript->link('jquery.form.min.js'); ?>
 
@@ -124,6 +140,18 @@
   <?php echo $javascript->link('settings.js'); ?>
   <?php echo $javascript->link('dropzone.js'); ?>
   <?php echo $javascript->link('custom.js'); ?>
+
+
+
+<?php echo $javascript->link('/honeycomb/scripts/jquery.easing.js');?>
+<?php echo $javascript->link('/honeycomb/scripts/jquery.easypiechart.min.js');?>
+
+<?php echo $javascript->link('/honeycomb/scripts/wow.min.js');?>
+<?php echo $javascript->link('/honeycomb/scripts/waypoints.js');?>
+<?php echo $javascript->link('/honeycomb/scripts/jquery.prettyPhoto.js');?>
+<?php echo $javascript->link('/honeycomb/scripts/custom.js');?>
+<?php echo $javascript->link('/honeycomb/scripts/twitter/jquery.tweet.js');?>
+
 
   
   <script type="text/javascript">

@@ -16,11 +16,6 @@ echo $html->css('/client/css/liquid-slider.css');
 echo $html->css('/client/css/animate.css');
 
 
-//echo $javascript->link('/client/js/vendor/modernizr.min.js');
-//echo $javascript->link('/client/js/jwplayer.js');
-
-
-
 ?>
 
 
