@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
     /*==========  Gallery Item Hover  ==========*/
 
     $('.gallery-item').hover(function(){
-        $(this).find('.gallery-info').stop(true,true).animate({ "top": "0" } );
+        $(this).find('.gallery-info').stop(true,true).animate({ "top": "50" } );
     },function(){
         $(this).find('.gallery-info').stop(true,true).animate({ "top": "-999" } );
     });

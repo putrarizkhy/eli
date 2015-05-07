@@ -1056,7 +1056,7 @@ a {
 .metro ol li ul,
 .metro ul li ol,
 .metro ol li ol {
-  padding-left: 25px;
+  padding-left: 0px;
 }
 .metro ol.styled {
   counter-reset: li;

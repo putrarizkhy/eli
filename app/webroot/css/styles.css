@@ -156,18 +156,18 @@ h3 span{ background:#f5f5f5; width:auto; padding-left:5px; padding-right:5px; ma
 	transition: all 0.3s ease-in-out;
 }
 .rb-grid { list-style: none; margin: 0 auto; }
-.rb-grid > li {
+/*.rb-grid > li {
 	width: 158px;
 	height: 116px;
 	margin: 4px;
 /*	color: #fff;*/
-	display: block;
+/*	display: block;
 	float: left;
 	padding: 11px;
 	/* cursor: pointer; */
-	position: relative;
+/*	position: relative;
 	
-}
+}*/
 .rb-grid > li a:link { color: #000; text-decoration:none; }
 .rb-grid > li a:visited { color: #000; text-decoration:none; }
 .rb-grid > li a:hover { color: #000; text-decoration:none; }
@@ -2767,14 +2767,14 @@ border-color: gray;
 
 /*tambahan*/
 
-#rb-grid{
+/*#rb-grid{
 	padding-left: 0;
 	margin-left: 0;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	width: 1000px;
-}
+}*/
 
 #rb-grid li{
 	cursor: pointer;
